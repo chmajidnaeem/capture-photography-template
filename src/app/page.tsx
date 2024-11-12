@@ -3,6 +3,9 @@ import Hero from '../../components/Hero'
 import Navbar from '../../components/Navbar'
 import Slider from '../../components/Slider'
 import { SliderData } from '../../components/SliderData'
+
+
+//export
 export default function Home() {
   return (
     <>

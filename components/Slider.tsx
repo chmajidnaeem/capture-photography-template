@@ -4,13 +4,16 @@ import Image from 'next/image'
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa'
 import { SliderData } from './SliderData'
 
+//interface for slide
 interface Slide {
   image: string
 }
 
+// interface for slider
 interface SliderProps {
   slides: Slide[]
 }
+
 
 const Slider: React.FC<SliderProps> = ({ slides }) => {
   const [current, setCurrent] = useState(0)
